@@ -1,50 +1,52 @@
-body{
-    text-align: center
+/* General rules - css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1, #counter{
-    margin-top: 5%  ;
-     font-style: oblique;
-    font-size: 60px;
+body {
+  text-align: center;
 }
 
-/* div */
-
-#number{
-    font-size: 100px;
+h1 {
+  margin-top: 5%;
+  font-style: oblique;
+  font-size: 60px;
 }
 
-/* buttons */
-
-button{
-    font-size: 18px;
-    height: 30px;
-    width: 20%;
-    border-radius: 5px ;
-    letter-spacing: 2px;
-    margin: 16px;
-    
+/* Section - Shows the number affected by the math operations  */
+#number {
+  font-size: 100px;
 }
 
-.btn res{
-    margin-right: 2%;
-    margin-left: 2%;
+/* General rules for buttons */
+button {
+  font-size: 18px;
+  height: 30px;
+  width: 20%;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  margin: 16px;
 }
 
-/* animation when is hover */
-
-.inc:hover{
-    background-color: rgb(25, 169, 25);
-    color: whitesmoke;   
+.btn res {
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
-.dec:hover{
-    background-color: red;
-    color: aliceblue;
+/* Hover animations */
+.inc:hover {
+  background-color: rgb(25, 169, 25);
+  color: whitesmoke;
 }
 
-.res:hover{
-    background-color: rgb(186, 184, 184);
-    color: whitesmoke;
+.dec:hover {
+  background-color: red;
+  color: aliceblue;
+}
 
+.res:hover {
+  background-color: rgb(186, 184, 184);
+  color: whitesmoke;
 }
