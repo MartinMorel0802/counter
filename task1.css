@@ -1,4 +1,4 @@
-/* General rules - css reset */
+/* * General rules - css reset */
 * {
   margin: 0;
   padding: 0;
@@ -15,38 +15,45 @@ h1 {
   font-size: 60px;
 }
 
-/* Section - Shows the number affected by the math operations  */
+/* * Section - Shows the number affected by the math operations  */
 #number {
   font-size: 100px;
 }
 
-/* General rules for buttons */
+/* * Section - Controller for Math operations  */
+#group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  /* flex-wrap: wrap; - Makes the content responsive -- try it */
+}
+
+/* * General rules for buttons */
 button {
   font-size: 18px;
-  height: 30px;
-  width: 20%;
+  padding: 1rem;
   border-radius: 5px;
   letter-spacing: 2px;
-  margin: 16px;
 }
 
-.btn res {
+/* ! Do not use percent values in margins */
+/* .btn res {
   margin-right: 2%;
   margin-left: 2%;
-}
+} */
 
-/* Hover animations */
-.inc:hover {
+/* * Hover animations */
+.btnIncrease:hover {
   background-color: rgb(25, 169, 25);
   color: whitesmoke;
 }
 
-.dec:hover {
+.btnDecrease:hover {
   background-color: red;
   color: aliceblue;
 }
 
-.res:hover {
+.btnReset:hover {
   background-color: rgb(186, 184, 184);
   color: whitesmoke;
 }

@@ -1,4 +1,8 @@
+<!-- TODO: Install The Extension: Better Comments -->
+
 # Changes
+
+<!-- ? Changes to the HTML File -->
 
 ### HTML File
 
@@ -12,7 +16,9 @@
 
 #### Button Tags
 
-##### Changed class names
+##### Changed the class names to more meaningful names and removed the id from the h1 element as it is unnecessary
+
+<!-- ? Changes to the CSS file -->
 
 ### CSS File
 
@@ -21,3 +27,13 @@
 #### Heading
 
 ##### Rules set to the tag only = using tag selector and id selector of the same html element is redundant
+
+<!-- ? Changes to the JavaScript file -->
+
+### JavaScript File
+
+#### Added some comments
+
+#### Logic
+
+##### Added some ways to deal with the logic
