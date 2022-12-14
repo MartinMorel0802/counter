@@ -1,50 +1,59 @@
-body{
-    text-align: center
+/* * General rules - css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1, #counter{
-    margin-top: 5%  ;
-     font-style: oblique;
-    font-size: 60px;
+body {
+  text-align: center;
 }
 
-/* div */
-
-#number{
-    font-size: 100px;
+h1 {
+  margin-top: 5%;
+  font-style: oblique;
+  font-size: 60px;
 }
 
-/* buttons */
-
-button{
-    font-size: 18px;
-    height: 30px;
-    width: 20%;
-    border-radius: 5px ;
-    letter-spacing: 2px;
-    margin: 16px;
-    
+/* * Section - Shows the number affected by the math operations  */
+#number {
+  font-size: 100px;
 }
 
-.btn res{
-    margin-right: 2%;
-    margin-left: 2%;
+/* * Section - Controller for Math operations  */
+#group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  /* flex-wrap: wrap; - Makes the content responsive -- try it */
 }
 
-/* animation when is hover */
-
-.inc:hover{
-    background-color: rgb(25, 169, 25);
-    color: whitesmoke;   
+/* * General rules for buttons */
+button {
+  font-size: 18px;
+  padding: 1rem;
+  border-radius: 5px;
+  letter-spacing: 2px;
 }
 
-.dec:hover{
-    background-color: red;
-    color: aliceblue;
+/* ! Do not use percent values in margins */
+/* .btn res {
+  margin-right: 2%;
+  margin-left: 2%;
+} */
+
+/* * Hover animations */
+.btnIncrease:hover {
+  background-color: rgb(25, 169, 25);
+  color: whitesmoke;
 }
 
-.res:hover{
-    background-color: rgb(186, 184, 184);
-    color: whitesmoke;
+.btnDecrease:hover {
+  background-color: red;
+  color: aliceblue;
+}
 
+.btnReset:hover {
+  background-color: rgb(186, 184, 184);
+  color: whitesmoke;
 }
